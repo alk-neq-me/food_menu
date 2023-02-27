@@ -1,6 +1,6 @@
 export default function Header() {
 	return (
-		<div className="bg-red-500 w-full relative">
+		<div className="w-full relative">
 			<div className="max-h-[350px] md:max-h-[400px] overflow-hidden">
 	      <img
 	        src="/food_header.jpg" 
