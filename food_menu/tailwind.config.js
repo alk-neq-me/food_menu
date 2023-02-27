@@ -6,8 +6,16 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "background": "#fafaf9",
+        "primary": "#fb923c",
+        "primary-active": "#f97316"
+      }
+    },
     fontFamily: {
+      'body': ['Lato', 'sans-serif'],
+      'type': ['Courier Prime', 'monospace'],
       'heading': ['Shantell Sans', 'cursive']
     }
   },
